@@ -1,0 +1,12 @@
+# DDL/result フォルダの中身を無視するが、.gitkeep は除外
+DDL/*
+!DDL/.gitkeep
+
+result/*
+!result/.gitkeep
+
+# その他よくある除外対象
+__pycache__/
+*.pyc
+.DS_Store
+env/
